@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#12005a, #000000de);
+}
+header h1
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+    color: rgb(189, 189, 189);
+}
+h2
+{
+  color: #2e2e2e;
+  font-size: 17px;
+  margin-top: 350px;
+  margin-left: 400px;
+}

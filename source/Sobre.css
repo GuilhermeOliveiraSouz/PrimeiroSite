@@ -1,0 +1,195 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    background: linear-gradient(#12005a, #000000de);
+}
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    width: 180px;
+    height: 540px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #028b0d;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: rgb(230, 230, 230);
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #00ff2a;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: rgb(53, 109, 42);
+    font-size: 18px;
+    font-weight: 100;
+}
+  .contedor {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centro {
+    margin-right: 500px;
+    width: 180px;
+    height: 540px;
+    position: absolute;
+  }
+  
+  .btnn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ff0000;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg#bordar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: rgb(255, 0, 0);
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btnn:hover {
+    transition: 1s ease-in-out;
+    background: #ff0000;
+  }
+  
+  .btnn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btnn span {
+    color: rgb(129, 1, 1);
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .contedora { /* bbbbbbbbbbbbbbbrrrrrrrrrrruuuuuuuuuuuuuhhhhhhhhhhh */
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centradora {
+    margin-left: 500px;
+    width: 180px;
+    height: 540px;
+    position: absolute;
+  }
+  
+  .btnm {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fbff00;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg#bordar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: rgb(238, 255, 0);
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btnm:hover {
+    transition: 1s ease-in-out;
+    background: #fffb00;
+  }
+  
+  .btnm:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btnm span {
+    color: rgb(155, 152, 2);
+    font-size: 18px;
+    font-weight: 100;
+  }
+  h1
+  {
+      color: rgb(212, 212, 212);
+      font-size: 22px;
+      margin-top: 250px;
+      margin-left: 30px;
+  }
+h2
+{
+  color: #2e2e2e;
+  font-size: 17px;
+  margin-top: 180px;
+  margin-left: 400px;
+}
